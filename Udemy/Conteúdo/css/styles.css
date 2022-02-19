@@ -1,0 +1,60 @@
+@media (min-width: 2000px){
+  h1 {
+    color: blue;
+  }
+  }
+  .btn-primary {
+    background-color: red;
+    border-color: red
+  }
+  
+  /* container breakpoint */
+
+    /* ≥578px */
+  .container-sm {
+    border: 2px solid blue
+  }
+  
+  /* ≥768px */
+  .container-md {
+    border: 2px solid crimson
+  }
+  
+    /* ≥992px */
+  .container-lg {
+    border: 2px solid chocolate
+  }
+
+    /* ≥1200px */
+  .container-xl {
+    border: 2px solid green
+  }
+
+  /* ≥1400px */
+  .container-xxl {
+    border: 2px solid purple
+  }
+  
+  
+  /* Grid */
+
+  /* <576px */
+  .container {
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+    margin-top: 100px;
+  }
+  
+  .row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .col {
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+  }
