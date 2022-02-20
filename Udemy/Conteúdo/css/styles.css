@@ -124,3 +124,13 @@
   border: 2px solid red;
 }
 
+div .col {
+  padding: 10px;
+  border: rgb(255, 255, 255) solid 2px;
+  background-color: red;
+}
+
+div .par {
+  background-color: blue;
+}
+
