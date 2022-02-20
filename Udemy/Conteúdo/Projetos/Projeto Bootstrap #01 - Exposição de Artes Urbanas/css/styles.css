@@ -79,6 +79,8 @@ a, i {
   background-color: #FFF;
   padding: 25px;
   position: absolute;
+  /* transform: translateX(-50%); */
   left: 25px;
   bottom: 25px;
+
 }
