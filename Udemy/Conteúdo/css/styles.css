@@ -114,3 +114,13 @@
   height: 70px;
 }
 
+/* offset */
+#offset {
+  height: auto;
+}
+
+#offset .col-md-3 {
+  height: 70px;
+  border: 2px solid red;
+}
+
