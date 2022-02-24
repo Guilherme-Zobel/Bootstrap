@@ -166,8 +166,107 @@
         <option value="3">Terceira</option>
       </select>
     </div>
-  </form>
 
+    <!-- Checkbox e radio button -->
+    <div class="mb-4">
+      <h2>Marca as opções</h2>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="privacidade">
+        <label for="privacidade" class="form-check-label">Aceitar termos de privacidade</label>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="emails" checked>
+        <label for="emails" class="form-check-label">Quer receber os e-mails de propaganda?</label>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="desabilitado" disabled checked>
+        <label for="desabilitado" class="form-check-label">Esta você não vai marcar</label>
+      </div>
+
+
+      <div class="mb-4">
+        <h2>Qual você quer?</h2>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="meu_radio" id="a" value="a"  checked>
+          <label for="a" class="form-check-label">Radio checado</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="meu_radio" id="b" value="b">
+          <label for="b" class="form-check-label">Radio para marcar</label>
+        </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="meu_radio" id="c" value="c" disabled>
+        <label for="c" class="form-check-label" >Radio desabilitado</label>
+      </div>
+    </div>
+
+
+    <!-- Switch -->
+    <div class="mb-4">
+      <h2>Escolha suas configurações</h2>
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" id="flex-switch">
+        <label for="flex-switch" class="form-check-label">Você quer reativar isto?</label>
+      </div>
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" id="flex-switch" disabled>
+        <label for="flex-switch-disabled" class="form-check-label">Switch desabilitado</label>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Range -->
+  <div class="mb-4">
+  <h2>Por favor responda:</h2>
+  <label for="probabilidade" class="form-label">Qual a probabilidade de você indicar este site para alguém?</label>
+  <input type="range" class="form-range"  min="0" max="5" id="probabilidade">
+  </div>
+
+  <div class="mb-4">
+    <h2>Por favor responda:</h2>
+    <label for="probabilidade2" class="form-label">Qual a probabilidade de você indicar este site para alguém?</label>
+    <input type="range" class="form-range"  min="0" max="5" id="probabilidade2" disabled>
+    </div>
+
+  <!-- Input Groups -->
+  <div class="input-group mb-4">
+    <span class="input-group-text" id="basic-addon">@</span>
+    <input type="email" class=form-control placeholder="Digite o seu e-mail">
+  </div>
+
+  <div class="input-group mb-4">
+    <span class="input-group-text" id="basic-addon2">#</span>
+    <input type="text" class=form-control placeholder="Digite o nome do canal">
+  </div>
+
+  <p>Quanto você quer depositar?(sem centavos)</p>
+  <div class="input-group mb-4">
+    <span class="input-group-text">R$</span>
+    <input type="text" class="form-control" placeholder="valor">
+    <span class="input-group-text">,00</span>
+  </div>
+
+  <!-- Label flutuante -->
+  <h2>Faça o login para continuar:</h2>
+  <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="email" placeholder="Insira o seu e-mail">
+    <label for="email">Insira o seu e-mail</label>
+  </div>
+
+  <div class="form-floating mb-3">
+    <input type="password" class="form-control" id="password" placeholder="Insira a sua senha">
+    <label for="password">Insira a sua senha</label>
+  </div>
+  <input type="submit" class="btn btn-primary" value="Entrar">
+
+  </form>
 </div>
+
+
+
 </body>
 </html>
