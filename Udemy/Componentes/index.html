@@ -401,5 +401,128 @@ defer
         </div>
       </div>
     </div>
+    <hr />
+
+    <!-- Close button -->
+    <div class="container mb-4">
+      <p class="bg-danger">
+        Clique para fechar
+        <button class="btn-close" type="button" aria-label="Close"></button>
+      </p>
+      <a href="" class="btn btn-danger">Fechar
+        <button class="btn-close" type="button" aria-label="Close"></button>
+      </a>
+      <p>
+        Clique para fechar
+        <button class="btn-close" type="button" aria-label="Close" disabled></button>
+      </p>
+    </div>
+
+    <!-- Colapse -->
+    <div class="container mb-4">
+      <button
+      class="btn btn-primary"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapse"
+      aria-expanded="false"
+      aria-controls="collapse"
+      >
+      Clique para exibir/esconder
+      </button>
+      <div class="collapse" id="collapse">
+        <div class="col-12 mt-4">
+          Esse é o texto que pode ser exibido ou não, dependendo do clique no botão.
+        </div>
+      </div>
+
+    </div>
+    <hr />
+
+    <!-- Dropdown-->
+    <div class="container mb-4">
+      <div class="dropdown mb-4">
+        <a
+          href="#"
+          class="btn btn-secondary dropdown-toggle"
+          role="button" id="dropdown"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >Clique aqui</a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdown">
+          <li><a href="#" class="dropdown-item">Link 1</a></li>
+          <li><a href="#" class="dropdown-item">Link 2</a></li>
+          <li><a href="#" class="dropdown-item">Link 3</a></li>
+          <li><a href="#" class="dropdown-item">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="dropdown mb-4 dropend">
+        <a
+          href="#"
+          class="btn btn-secondary dropdown-toggle"
+          role="button" id="dropdown"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >Clique aqui</a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdown-direita">
+          <li><a href="#" class="dropdown-item">Link 1</a></li>
+          <li><a href="#" class="dropdown-item">Link 2</a></li>
+          <li><a href="#" class="dropdown-item">Link 3</a></li>
+          <li><a href="#" class="dropdown-item">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+
+    <!-- Modal -->
+     <!-- Button trigger modal -->
+     <div class="container mb-4">
+      <button 
+      type="button" 
+      class="btn btn-primary" 
+      data-bs-toggle="modal" 
+      data-bs-target="#exampleModal">
+        Abrir modal
+      </button>
+    </div>
+
+    <!-- container modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleMoalLabel"
+      aria-hidden="true"
+      >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleMoalLabel">Este é o título</h5>
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Aqui você pode por qualquer coisa?</p>
+            <p>Ta bom?</p>
+          </div>
+          <div class="modal-footer">
+            <button 
+              class="btn btn-secondary"
+              type="button"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+            <button class="btn btn-success" type="button">Salvar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
